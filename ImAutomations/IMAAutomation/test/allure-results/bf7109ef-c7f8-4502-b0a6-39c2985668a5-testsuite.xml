@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1562872766507' stop='1562872781859'>
+    <name>Contacts page</name>
+    <title>Contacts page</title>
+    <test-cases>
+        <test-case start='1562872766507' status='passed' stop='1562872781859'>
+            <name>1. Verify user is able to update Contact info</name>
+            <title>1. Verify user is able to update Contact info</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='977485f0-5bd3-43f0-9104-45997058f40b-attachment.png' type='image/png' size='131582'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

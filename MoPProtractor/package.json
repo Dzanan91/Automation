@@ -1,0 +1,33 @@
+{
+  "name": "moptask",
+  "version": "0.0.1",
+  "description": "protractor jasmine",
+  "main": "index.js",
+  "author": "Dzanan Redzepagic",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run test",
+    "pretest": "npm install",
+    "test": "npm run protractor -- --suite signup,login,story,profile --capabilities.maxInstances=1",
+    "test:login": "npm run protractor -- --suite login --capabilities.maxInstances=1",
+    "test:signup": "npm run protractor -- --suite signup --capabilities.maxInstances=1",
+    "test:story": "npm run protractor -- --suite story --capabilities.maxInstances=1",
+    "test:profile": "npm run protractor -- --suite profile --capabilities.maxInstances=1",
+    "test:multiple": "npm run test -- --capabilities.shardTestFiles=true --capabilities.maxInstances=3",
+    "protractor": "babel-node node_modules/.bin/protractor protractor-conf.js"
+  },
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "chromedriver": "^2.33.2",
+    "node-fetch": "^1.7.3",
+    "protractor": "^5.2.0"
+  },
+  "devDependencies": {
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor-jasmine2-screenshot-reporter": "^0.5.0"
+  }
+}

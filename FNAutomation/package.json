@@ -1,0 +1,21 @@
+{
+  "name": "fnautomation",
+  "version": "1.0.0",
+  "description": "Automated testing framework ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "update-webdriver": "webdriver-manager update --versions.chrome=75.0.3770.90",
+    "protractor:browser": "protractor conf.js"
+  },
+  "author": "Dzanan",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^75.0.0",
+    "express": "^4.16.4",
+    "protractor": "^5.4.2"
+  },
+  "devDependencies": {
+    "protractor-beautiful-reporter": "^1.2.8"
+  }
+}

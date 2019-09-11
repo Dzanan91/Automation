@@ -1,0 +1,5 @@
+{
+  "main.py::CkuFlow::test1": true,
+  "test_cases.py::RailsTc::test_3": true,
+  "test_cases.py::RailsTc::test_4": true
+}

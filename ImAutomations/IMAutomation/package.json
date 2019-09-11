@@ -1,0 +1,21 @@
+{
+  "name": "imautomations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "update-webdriver": "webdriver-manager update",
+    "protractortest": "protractor conf.js"
+  },
+  "author": "Dzanan",
+  "license": "ISC",
+  "dependencies": {
+    "commandline": "0.0.2",
+    "express": "^4.16.4",
+    "install": "^0.12.2",
+    "npm": "^6.9.0",
+    "protractor": "^5.4.2",
+    "protractor-beautiful-reporter": "^1.2.8"
+  }
+}

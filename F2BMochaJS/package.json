@@ -1,0 +1,21 @@
+{
+  "name": "f2bmochajs",
+  "version": "1.0.0",
+  "description": "Automated tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "selenium": "^2.20.0",
+    "standalone": "0.0.1",
+    "webdriverio": "^4.13.2"
+  },
+  "devDependencies": {
+    "wdio-mocha-framework": "^0.6.3",
+    "wdio-selenium-standalone-service": "0.0.10",
+    "wdio-spec-reporter": "^0.1.5"
+  }
+}
