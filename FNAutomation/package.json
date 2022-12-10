@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "chromedriver": "^75.0.0",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "protractor": "^5.4.2"
   },
   "devDependencies": {
